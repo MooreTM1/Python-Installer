@@ -31,13 +31,13 @@ $libraries = @(
     "opencv-python",
     "pandas",
     "pygame",
-    "pytorch"
     "matplotlib",
     "numpy",
     "seaborn",
     "scikit-learn",
     "scipy",
     "tensorflow",
+    "torch"
     "jupyter"
     # Add more libraries here
 )
