@@ -2,7 +2,7 @@
 
 # Download and install the latest Python
 Write-Output "Downloading the latest Python installer..."
-$pythonInstaller = "https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe"
+$pythonInstaller = "https://www.python.org/ftp/python/3.13.1/python-3.13.1-amd64.exe"
 $installerPath = "$env:TEMP\python_installer.exe"
 Invoke-WebRequest -Uri $pythonInstaller -OutFile $installerPath
 
