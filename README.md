@@ -31,5 +31,7 @@ These libraries can be changed based on the user’s needs. Just add or delete t
   
 # Just in case
 Sometimes PowerShell blocks scripts from running due to security reasons. If this happens, run this:
+
 'Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned'
+
 Then type 'Y' to confirm
