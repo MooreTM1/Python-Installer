@@ -35,3 +35,10 @@ Sometimes PowerShell blocks scripts from running due to security reasons. If thi
 'Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned'
 
 Then type 'Y' to confirm
+
+Alternatively you can do the following:
+
+- 1.) Right click on python-installer.ps1
+- 2.) Select Properties
+- 3.) Check the 'Unblock' (bottom of the window)
+- 4.) Click Apply then OK
